@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@section scripts{    
+    <script type="text/javascript">
+
+    </script>
+}
+
+<body>
+    <form method="post">
+        <div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <div>
+                <textarea class="form-control" rows="6" placeholder="Your review will be here!" name="@Model.Reviews.reviewText">@Model.Reviews.reviewText</textarea>
+            </div>
+            <div>
+                <input type="text" readonly value="@Model.Reviews.overall" asp-for="@Model.Reviews.overall" />
+                    <label>Stars</label>
+            </div>
+
+            <div class="container px-1">
+                <div class="row justify-content-md-center">
+                    <div class="col col-lg-2">
+                        <input type="submit" class="btn btn-primary" value="Surprise Me" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+
+
+@*             <div class="col col-lg-2">
+                    <button class="btn btn-primary">I don't like surprises</button>
+                    </div>
+                    <div class="col col-lg-2">
+                    <input type="text" class="hiddeninput" />
+                    </div> *@
+
+
+
+
+
+
