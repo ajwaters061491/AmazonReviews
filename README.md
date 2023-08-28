@@ -1,11 +1,17 @@
 # AmazonReviews
 
-##Alvin Waters
+## Alvin Waters
 
-##My technical assessment for Loyal Health
+## My technical assessment for Loyal Health
 
-###Build Instructions:
+
+
+
+
+### Build Instructions:
 dotnet build AmazonRevews
+
+
 
 
 
