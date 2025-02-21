@@ -2,7 +2,7 @@
 
 ## Alvin Waters
 
-## My technical assessment for Loyal Health
+## Originally done as a technical assessment for an interview.
 
 
 
